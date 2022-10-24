@@ -1,3 +1,5 @@
+document.querySelector('button').addEventListener('click', getFetch)
+
 function getFetch(userInput){
     const choice = userInput
     const url = `https://world.openfoodfacts.org/api/v0/product/${choice}.json`
