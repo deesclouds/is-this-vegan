@@ -1,9 +1,64 @@
-*{
+/* Box Model Hack */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 62.5%;
 }
-html{
-    background-color: rgba(255, 99, 71, 0.754);
+/* Base Styles */
+body {
+    background: hsla(191, 88%, 81%, 1);
+
+    background: radial-gradient(circle, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 75%, hsla(247, 73%, 69%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 75%, hsla(247, 73%, 69%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 75%, hsla(247, 73%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4E9F9", endColorstr="#C5AEF2", GradientType=1 );
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 );
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Merriweather', serif, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 150vh,
+}
+
+/* Additional Lines */
+input {
+    width: 200px;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+button {
+    margin: 20px auto;
+    display: block;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+label{
+    font-size: 2rem;
+}
+img {
+    max-height: 300px;
+}
+h2{ 
+    margin-bottom: 0;
+}
+table{
+    background-color: hsla(247, 73%, 69%, 1) 100%;
+}
+table, th, td {
+    margin: 20px auto;
+    border: 1px solid;
+    font-size: 2rem;
+}
+
+.non-veg-item{
+    background-color: red;
+}
+.idk-maybe-item{
+    background-color: yellow;
 }
