@@ -1,13 +1,20 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-size: 62.5%;
+    overscroll-behavior: none;
 }
 /* Base Styles */
+h1{
+    font-size: 3em;
+    margin: 0.67em, 0;
+}
 body {
-    background: hsla(191, 88%, 81%, 1);
+    background-image: url('../images/background1.jpeg');
+    background-position: center;
+    /* background: hsla(191, 88%, 81%, 1);
 
     background: radial-gradient(circle, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 75%, hsla(247, 73%, 69%, 1) 100%);
     
@@ -17,12 +24,28 @@ body {
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4E9F9", endColorstr="#C5AEF2", GradientType=1 );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 );
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 ); */
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Merriweather', serif, sans-serif;
     font-family: 'Poppins', sans-serif;
     height: 150vh,
+}
+
+/* Container */
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 36px auto;
+}
+/* Glass Effect */
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1, rgba(255, 255, 255, 0)));
+    backdrop-filter: invert(20deg);
+    -webkit-backdrop-filter: blur(20deg);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 /* Additional Lines */
@@ -37,6 +60,9 @@ button {
     display: block;
     border-radius: 2rem;
     padding: 1rem;
+    font-size: 1.5em;
+    /* color: rgb(7 118 45); */
+    background: rgba(4, 202, 73, 0.63);
 }
 label{
     font-size: 2rem;
@@ -47,8 +73,9 @@ img {
 h2{ 
     margin-bottom: 0;
 }
-table{
-    background-color: hsla(247, 73%, 69%, 1) 100%;
+#ingredient-table{
+     /* background: rgb(11 156 61 / 63%); */
+    background:hsl(159deg 75% 52%) -19%;
 }
 table, th, td {
     margin: 20px auto;
