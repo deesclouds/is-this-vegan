@@ -1,11 +1,6 @@
 # is-this-vegan
 
-<img 
-     style="display:block;
-            margin-left: 50px;
-            margin-right: auto;
-            width: 80%;"
-src="https://user-images.githubusercontent.com/77818241/200143584-1470771b-91c4-4aa3-a686-e77cdf97e615.gif" alt="is-this-vegan-gif"> </img>
+<p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/200143584-1470771b-91c4-4aa3-a686-e77cdf97e615.gif" alt="is-this-vegan-gif"/></p> 
 
 ***This app checks if a food product is vegan.***
 
