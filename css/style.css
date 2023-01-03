@@ -22,10 +22,15 @@ body {
     font-family: 'Merriweather', serif, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+/* In order to place the tracking correctly */
+canvas.drawing, canvas.drawingBuffer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 /* Container */
 .container {
-    width: 50%;
+    width: 55%;
     height: 760px;
     margin: 36px auto;
 }
