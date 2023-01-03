@@ -14,3 +14,16 @@ idk & maybe = Yellow *Means that there is an uncertainty if the ingredient in th
 No = RED *Means that it is definitely sure that the product is not vegan*
 
 "Is this vegan" receives information from Api calls to Open Food Facts[https://us.openfoodfacts.org/] then displays product ingredients to the user whether f the product is vegan or not. 
+
+## Getting Started
+
+How to use Quagga for scanning barcodes:
+
+Install Quagga: npm install quagga
+
+Import dependency into project: 
+
+```
+import Quagga from 'quagga'; // ES6
+const Quagga = require('quagga').default; // Common JS (important: default)
+```

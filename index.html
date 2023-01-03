@@ -19,6 +19,11 @@
         <div class="container glass">
             <div class="heading-container">
             <h1>Is this product Vegan?</h1>
+            <!-- Barcode Scanner -->
+            <div id="scanner-container"></div>
+            <input type="button" id="btn" value="Start/Stop the scanner" />
+            <br>
+            <!-- Type Barcode -->
         <label for="barcode">Enter a UPC barcode number (12 digits)</label>
     </div>
         <br>
@@ -35,6 +40,12 @@
     </div>
 
         <script type="text/javascript" src="js/main.js"></script>
+        <!-- Quagga CDN -->
+        <script src="https://cdn.rawgit.com/serratus/quaggaJS/0420d5e0/dist/quagga.min.js"></script>
+         <!-- Quagga image-diff library -->
+    <script src="quagga.min.js"></script>
+    <script src="barcode-scanner.js"></script>
+
     
     </body>
 </html>

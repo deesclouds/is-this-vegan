@@ -73,4 +73,31 @@ class ProductInfo {
     }
     }
 
-}   
+}
+
+// Check compatibility with browser
+if (!("BarcodeDetector" in window)) {
+    console.log("Barcode Detector is not supported by this browser.");
+  } else {
+    console.log("Barcode Detector supported!");
+  
+    // create new detector
+    const barcodeDetector = new BarcodeDetector({
+      formats: ["upc_a"],
+    });
+  }
+
+  // Checks supported types
+BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
+    supportedFormats.forEach((format) => console.log(format));
+  });
+
+//   Detect Barcodes
+barcodeDetector
+  .detect(imageEl)
+  .then((barcodes) => {
+    barcodes.forEach((barcode) => console.log(barcode.rawValue));
+  })
+  .catch((err) => {
+    console.log(err);
+  });
