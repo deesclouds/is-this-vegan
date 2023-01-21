@@ -8,19 +8,23 @@
 }
 /* Base Styles */
 h1{
-    font-size: 5em;
+    font-size: 9em;
     color: rgb(10 45 22);
+    padding-top: 1em;
+    
     /* margin: 0.67em, 0; */
 }
 body {
-    background-image: url('../images/background1.jpeg');
-    background-position: initial;
+    /* background-image: url('../images/background1.jpeg'); */
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-doodle-background_23-2149977989.jpg?w=1380&t=st=1674291253~exp=1674291853~hmac=44a6892d259a4bbb4b4843ab7acb89d5d5d983eb2b04bdfb4625d53a18b846ca);
+    background-position: inherit;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Merriweather', serif, sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 /* In order to place the tracking correctly */
 canvas.drawing, canvas.drawingBuffer {
@@ -31,32 +35,47 @@ canvas.drawing, canvas.drawingBuffer {
 /* Container */
 .container {
     width: 55%;
-    height: 760px;
+    /* height: 760px; */
     margin: 36px auto;
 }
 /* Glass Effect */
 .glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1, rgba(255, 255, 255, 0)));
-    backdrop-filter: invert(20deg);
+    background: linear-gradient(135deg, rgba rgb(42, 61, 42) rgba(255, 255, 255, 0.9));
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(20deg);
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 /* Additional Lines */
 input {
-    width: 200px;
-    font-size: 2rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
+    width:max-content;
+    font-size: 3rem;
+    border-radius: 3rem;
+    margin-top: .5rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(201, 255, 93);
+
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
 button {
     margin: 20px auto;
     display: block;
     border-radius: 2rem;
     padding: 1rem;
-    font-size: 1.5em;
+    font-size: 2em;
     /* color: rgb(7 118 45); */
     background: rgba(4, 202, 73, 0.63);
 }
