@@ -1,16 +1,25 @@
-# is-this-vegan
+<h1 id="header" align="center">
+is this vegan?
+</h1>
+<div align="center">
 
-Project is live! 
-[https://is-this-vegan.netlify.com]
+<p align="center" width="800" height="600"><img src="images/vegan-app.gif" alt="gif of is-this-vegan"/></p>
 
-<p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/200143584-1470771b-91c4-4aa3-a686-e77cdf97e615.gif" alt="is-this-vegan-gif"/></p> 
+Link to project [here](https://is-this-vegan.netlify.com).
 
-***This app checks if a food product is vegan.***
+**What does it do?**
+This app checks if a food product is vegan.
 
-It does this by finding the product that matches the UPC code entered. It then cycles through the ingredients and returns a value of yes, no, idk and maybe.
+It does this by finding the product that matches the UPC code entered.
 
-Yes = Green *The ingredient is vegan*
-idk & maybe = Yellow *Means that there is an uncertainty if the ingredient in the product is vegan*
-No = RED *Means that it is definitely sure that the product is not vegan*
+It then cycles through the ingredients and returns a value of yes, no, idk and maybe.
 
-"Is this vegan" receives information from Api calls to Open Food Facts[https://us.openfoodfacts.org/] then displays product ingredients to the user whether f the product is vegan or not. 
+yes = Green for the ingredient is vegan
+
+idk & maybe = Yellow there is an uncertainty if the ingredient in the product is vegan
+
+no = RED Definitely sure that the product is not vegan
+
+"is-this-vegan" receives information from Api calls to [Open Food Facts](https://us.openfoodfacts.org/) then displays product ingredients to the user whether the product is vegan or not.
+
+<div>
