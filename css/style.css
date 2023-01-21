@@ -65,13 +65,13 @@ input {
     background-color: rgb(201, 255, 93);
 
 }
-
+/* Removes arrows from other browsers */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
+/* Removes arrows on Firefox */
 input[type=number] {
     -moz-appearance: textfield;
 }
