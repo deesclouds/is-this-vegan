@@ -16,6 +16,7 @@ Tech used: HTML, CSS, JavaScript, product ingredients are pulled from  calls to 
 Enter a UPC code within the input field then click the Get Info button.
 
 "is this thing vegan?" cycles through the ingredients from the API and populates ingredients from the product within a table returning a value of yes, no, idk and maybe next to each ingredient.
+</div>
 
 - **yes** will be displayed in green for the ingredient is vegan.
 
@@ -24,7 +25,7 @@ Enter a UPC code within the input field then click the Get Info button.
 - **no** will be displayed in red if there is absolute knowledge that the ingredient is not vegan.
 
 "is-this-thing-vegan" receives information from API calls to [Open Food Facts](https://us.openfoodfacts.org/).
-
+<div align="center">
 **Optimizations:**
 Background image and styling were updated with the help of @xoladybugs so the project appeared more fun and playful.
 
