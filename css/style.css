@@ -6,38 +6,44 @@
     font-size: 62.5%;
     overscroll-behavior: none;
 }
+
 /* Base Styles */
-h1{
+h1 {
     font-size: 9em;
     color: rgb(10 45 22);
     padding-top: 1em;
-    
+
     /* margin: 0.67em, 0; */
 }
+
 body {
     /* background-image: url('../images/background1.jpeg'); */
     background-image: url(https://img.freepik.com/free-vector/hand-drawn-doodle-background_23-2149977989.jpg?w=1380&t=st=1674291253~exp=1674291853~hmac=44a6892d259a4bbb4b4843ab7acb89d5d5d983eb2b04bdfb4625d53a18b846ca);
     background-position: inherit;
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Merriweather', serif, sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Unbounded', cursive;
 }
+
 /* In order to place the tracking correctly */
-canvas.drawing, canvas.drawingBuffer {
+canvas.drawing,
+canvas.drawingBuffer {
     position: absolute;
     left: 0;
     top: 0;
 }
+
 /* Container */
 .container {
     width: 55%;
     /* height: 760px; */
     margin: 36px auto;
 }
+
 /* Glass Effect */
 .glass {
     background: linear-gradient(135deg, rgba rgb(42, 61, 42) rgba(255, 255, 255, 0.9));
@@ -50,7 +56,7 @@ canvas.drawing, canvas.drawingBuffer {
 
 /* Additional Lines */
 input {
-    width:max-content;
+    width: max-content;
     font-size: 3rem;
     border-radius: 3rem;
     margin-top: .5rem;
@@ -59,14 +65,14 @@ input {
     background-color: rgb(201, 255, 93);
 
 }
+
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button
-{
--webkit-appearance: none;
-margin: 0;
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-input[type=number]{
+input[type=number] {
     -moz-appearance: textfield;
 }
 
@@ -79,33 +85,41 @@ button {
     /* color: rgb(7 118 45); */
     background: rgba(4, 202, 73, 0.63);
 }
-label{
+
+label {
     font-size: 2rem;
     color: rgb(10 45 22);
 }
+
 img {
     width: 300px;
 }
-h2{ 
+
+h2 {
     margin-bottom: 0;
 }
-#ingredient-table{
-    background:hsl(136deg 70% 56%)-19%;
+
+#ingredient-table {
+    background: hsl(136deg 70% 56%)-19%;
 }
 
-#product-img{
+#product-img {
     border: 7em;
     border-color: rgb(66, 222, 74);
     border-style: inset;
     width: max-content;
 
 }
-#product-name{
+
+#product-name {
     font-size: 3em;
     font-variant: all-small-caps;
     padding: 0.75em;
 }
-table, th, td {
+
+table,
+th,
+td {
     margin: 20px auto;
     margin-top: 0;
     border: 1px solid;
@@ -115,9 +129,10 @@ table, th, td {
     margin-bottom: 3em;
 }
 
-.non-veg-item{
+.non-veg-item {
     background-color: red;
 }
-.idk-maybe-item{
+
+.idk-maybe-item {
     background-color: yellow;
 }
