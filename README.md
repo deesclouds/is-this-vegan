@@ -1,9 +1,11 @@
-# is-this-vegan
-
+<h1 id="header" align="center">
+Shopping Buddy
+</h1>
+<div align="center">
 Project is live! 
 [https://is-this-vegan.netlify.com]
 
-<p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/200143584-1470771b-91c4-4aa3-a686-e77cdf97e615.gif" alt="is-this-vegan-gif"/></p> 
+<p align="center" width="800" height="600"><img src="images/vegan-app.gif" alt="gif of shopping buddy"/></p> 
 
 ***This app checks if a food product is vegan.***
 
@@ -14,3 +16,4 @@ idk & maybe = Yellow *Means that there is an uncertainty if the ingredient in th
 No = RED *Means that it is definitely sure that the product is not vegan*
 
 "Is this vegan" receives information from Api calls to Open Food Facts[https://us.openfoodfacts.org/] then displays product ingredients to the user whether f the product is vegan or not. 
+<div>
