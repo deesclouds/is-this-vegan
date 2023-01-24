@@ -104,11 +104,7 @@ h2 {
 }
 
 #product-img {
-    border: 7em;
-    border-color: rgb(66, 222, 74);
-    border-style: inset;
     width: max-content;
-
 }
 
 #product-name {

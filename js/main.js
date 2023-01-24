@@ -1,4 +1,9 @@
 document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('button').addEventListener('click', displayBorder)
+
+function displayBorder(){
+    document.querySelector('#product-img').style.border = '7em inset rgb(66, 222, 74)'
+}
 
 function getFetch(userInput) {
     let inputVal = document.getElementById('barcode').value
