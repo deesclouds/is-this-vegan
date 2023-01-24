@@ -27,7 +27,7 @@ Enter a UPC code within the input field then click the Get Info button.
 "is-this-thing-vegan" receives information from API calls to [Open Food Facts](https://us.openfoodfacts.org/).
 <div align="center">
 **Optimizations:**
-Background image and styling were updated with the help of @xoladybugs so the project appeared more fun and playful.
+Background image and styling were updated with the help of @xoladybugs so the project appeared more fun and playful. Removed border from being displayed on page load before product image rendered. By using JavaSript, I was able to display the border on click after a request was fetched to the API.
 
 **Lessons Learned:**
 Some of the ingredients that the API aren't sure if it's vegan displays as idk and maybe. Some of those ingredients also appear to be vegan ingredients. More research needs to be done to determine if those ingredients are in fact vegan.
