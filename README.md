@@ -5,7 +5,7 @@ is this thing vegan?
 
 This project was built to help check if ingredients within food products are actually vegan.
 
-<p align="center" width="800" height="600"><img src="images/vegan-app.gif" alt="gif of is-this-vegan"/></p>
+<p align="center" width="800" height="600"><img src="images/isthisthingvegan.gif" alt="gif of is-this-vegan"/></p>
 
 **Link to project [here]** (https://is-this-vegan.netlify.com).<br>
 
